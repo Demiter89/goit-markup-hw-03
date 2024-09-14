@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: #2e2f42;;
 }
 /* main content */
+
 .main-paragrph{
     background-color: #2e2f42;
 
@@ -107,6 +108,8 @@ h1, h2, h3, h4, h5, h6, p{
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        width: 496px;
+        height: 120px;
 }
 .button{
         font-weight: 500;
@@ -116,6 +119,9 @@ h1, h2, h3, h4, h5, h6, p{
         color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
+        border-radius: 4px;
+        width: 169px;
+        height: 56px;
     }
     .button:hover,
     .button:focus{
