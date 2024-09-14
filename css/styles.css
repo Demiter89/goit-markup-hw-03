@@ -108,10 +108,12 @@ h1, h2, h3, h4, h5, h6, p{
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        width: 496px;
+        max-width: 496px;
         height: 120px;
+        padding: 188px 0 188px
 }
 .button{
+        display: block;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
