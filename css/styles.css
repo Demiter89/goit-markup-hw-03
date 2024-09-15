@@ -145,6 +145,9 @@ h1, h2, h3, h4, h5, h6, p{
         background-color: #404bbf;
     }
     /* company-description */
+    .company{
+        padding: 120px 0;
+    }
 .company-description{
     position: absolute;
         width: 1px;
@@ -159,13 +162,15 @@ h1, h2, h3, h4, h5, h6, p{
         overflow: hidden;
 }
 .company-description-items{
+    padding: 120px 0;
     display: flex;
     align-items: center;
+    gap: 24px;
+    align-items: stretch;
 }
 .company-description-list{
     width: 264;
     height: 104;
-    padding: 120px 0;
     margin-left: auto;
     margin-right: auto;
     width: calc((100% - 72px) / 4);
