@@ -242,6 +242,9 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: #ffffff;
 }
 /* Our Portfolio */
+.our-portfolio-style{
+    padding-top: 120px;
+}
 .our-portfolio{
         margin-bottom: 72px;
         font-weight: 700;
@@ -260,7 +263,6 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .our-portfolio-list{
     display: flex;
-    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -278,6 +280,9 @@ h1, h2, h3, h4, h5, h6, p{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.list-main{
+    flex-wrap: wrap;
 }
 /* Foter */
 .footer-description{
