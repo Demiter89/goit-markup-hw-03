@@ -195,8 +195,16 @@ h1, h2, h3, h4, h5, h6, p{
 /* our team */
 .our-team-style{
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.our-team-list{
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .our-team{
+        margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
