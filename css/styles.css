@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .page-footer{
     background-color: #2e2f42;;
+    padding: 100px;
 }
 /* main content */
 
@@ -296,4 +297,9 @@ h1, h2, h3, h4, h5, h6, p{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
+}
+.second-foter{
+    display: inline-block;
+    margin-bottom: 16px;
 }
