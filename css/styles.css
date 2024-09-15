@@ -159,13 +159,20 @@ h1, h2, h3, h4, h5, h6, p{
         overflow: hidden;
 }
 .company-description-items{
-    padding: 120px 0;
     display: flex;
     align-items: center;
+}
+.company-description-list{
+    width: 264;
+    height: 104;
+    padding: 120px 0;
+    margin-left: auto;
+    margin-right: auto;
     width: calc((100% - 72px) / 4);
 }
 
 .company-description-sub-items{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -173,6 +180,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #2e2f42;
 }
 .company-description-sub-items-text{
+
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
