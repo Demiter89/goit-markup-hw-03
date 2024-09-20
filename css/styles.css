@@ -56,8 +56,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .header-logo .logo-part{
     color: #2e2f42;
-}
-.header-logo .logo-part-footer {
+}.logo-part-footer {
     color: #f4f4fd;
 }
 .nav-link{
